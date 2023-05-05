@@ -1,0 +1,48 @@
+.publicacionesRecientes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    height: 654px;
+}
+.cardPublicacion{
+    width: 335px;
+    height: 451px;
+    background-color: white;
+    border-radius: 20px;
+}
+.cardPublicacion img {
+    width: 100%;
+    height: 214px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.08);
+}
+.publicacionesRecientes h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.publicacionesRecientes p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+    text-align: left;
+}
+.publicacionesRecientes button{
+    background-color: #FFBC6D;
+    border-radius: 10px;
+    height: 28px;
+    width: 106px;
+    border-style: none;
+    position: relative;
+    left: 60px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.publicacionesRecientes button:hover{
+    cursor: pointer;
+    background-color: #F68F56;
+    color: white;
+}
