@@ -4,11 +4,12 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Footer from "./Components/Footer";
+import SobreNosotros from "./Components/SobreNosotros";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Footer />,
+    element: <SobreNosotros />,
   },
 ]);
 
